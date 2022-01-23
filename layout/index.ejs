@@ -1,6 +1,6 @@
 <% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
-<div class="row">
-  <div class="nine columns left mb-3">
+<div class="row mb-3">
+  <div class="nine columns left">
     <a href="<%- url_for(post.path) %>">
       <% if (post.title == "") { %>
       no title
