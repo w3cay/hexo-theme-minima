@@ -1,25 +1,26 @@
 #title in header
-title: "Hi Folks."
+title: "安望云海"
 
 #main info
 #owner
-owner: "I am Adi Sakti Jrs"
-email: test@test.test
-info: "A student and web developer from Indonesia 🇮🇩"
+owner: "我叫安阳"
+info: "理想是做一名自由的独立开发者，在此分享记录我的所做所想和自己成长的点滴"
 #description
-desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using Skeleton CSS boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries! 😁"
+desc: ""
 
 #menu
 menu:
-  Works: /Works
-  About: /About
+  作品: /tags/作品/
+  读书: /tags/读书笔记/
+  简历: /about
+
 
 #index/main page max show posts (in number)
-max_post: 4
+max_post: 9
 
 # Colors use hex color without #
 # Theme color
-tcolor: 0FA0CE
+tcolor: 333
 
 # Define path to user css
 #(could be also located outside of theme)
@@ -28,13 +29,8 @@ usercss: css/user.css
 
 # social profile at the footer/bottom
 footer: true
-placename: Earth
-placelink: https://en.wikipedia.org/wiki/Earth
-github: https://github.com/adisaktijrs
-linkedin: https://linkedin.com/in/adisaktijrs
-twitter: https://twitter.com/adisaktijrs
-instagram: https://instagram.com/adisaktijrs
-stackoverflow: https://stackoverflow.com/story/tobiasreithmeier
+placename: 安望云海
+placelink: http://w3cay.com
 
 # Misc
 nanobar: /js/nanobar.min.js
@@ -45,13 +41,7 @@ switch_dark: 🌑
 picjs: /js/pic.min.js
 
 # favicon
-favicon: /images/favicon.png
-# thumbnail
-thumbnail: /images/thumbnail.jpg
+favicon: /images/favicon.ico
 
 article:
-  thumbnail: true
-
-# DISQUS comments (sign up to Disqus to get disqus_shortname)
-disqus_enabled: false
-disqus_shortname: https-adisaktijrs-github-io
+  thumbnail: false

@@ -9,16 +9,13 @@
     }
 %>
 <% if(title) { %>
-   <h3>Posts Related to — <%- title %></h3>
+   <h2><%- title %></h2>
+   
 <% } %>
 <% page.posts.each(function(item){ %>
 
   <article>
     <div class="row">
-
-      <div class="three columns left lit">
-        <p class="bottom"><%- full_date(item.date, 'll') %></p>
-      </div>
       <div class="nine columns left mb-3">
         <a href="<%- url_for(item.path) %>">
           <% if (item.title == "") { %>
@@ -27,6 +24,9 @@
             <%- item.title %>
           <% } %>
         </a>
+      </div>
+      <div class="three columns left lit">
+        <p class="bottom"><%- full_date(item.date, 'YY-MM-DD') %></p>
       </div>
     </div>
   </article>
