@@ -17,13 +17,13 @@
 
   var title = title = config.title;
   if (is_archive()){
-    title = 'All Posts - ' + config.author;
+    title = theme.title;
   } else if (is_post()){
-    title = page.title;
+    title = page.title + ' - ' + theme.title;
   } else if (is_page()){
-    title = page.title + ' - ' + config.author;
+    title = page.title + ' - ' + theme.title;
   } else if (is_tag()){
-    title = 'Posts Related to ' + page.tag;
+    title = page.tag + ' - ' + theme.title;;
   }
   %>
   <title><%= title %></title>
@@ -78,11 +78,6 @@
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Preload fonts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="preload" href="/fonts/dm-serif-display-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/inter-v2-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
