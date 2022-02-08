@@ -12,7 +12,7 @@ desc: ""
 menu:
   APP: /tags/APP/
   读书: /tags/读书笔记/
-  简历: /about
+  关于: /about
 
 
 #index/main page max show posts (in number)
