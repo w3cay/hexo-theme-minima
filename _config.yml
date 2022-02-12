@@ -16,7 +16,7 @@ menu:
 
 
 #index/main page max show posts (in number)
-max_post: 12
+max_post: 20
 
 # Colors use hex color without #
 # Theme color
@@ -25,7 +25,7 @@ tcolor: 333
 # Define path to user css
 #(could be also located outside of theme)
 # Relative to source/ directory
-usercss: css/user.css
+# usercss: css/user.css
 
 # social profile at the footer/bottom
 footer: true
@@ -39,7 +39,8 @@ switch_dark: 🌑
 
 # Picture enlargement
 picjs: /js/pic.min.js
-
+highlight_js: /js/highlight.min.js
+highlight_css: /css/github.min.css
 # favicon
 favicon: /images/favicon.ico
 
