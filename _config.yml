@@ -10,8 +10,8 @@ desc: ""
 
 #menu
 menu:
-  APP: /tags/APP/
   想法: /sentence/
+  APP: /tags/APP/
   关于: /about
 
 
