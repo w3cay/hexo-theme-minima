@@ -1,7 +1,7 @@
 <% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
 <div class="row mb-3">
   <div class="nine columns left">
-    <a href="<%- url_for(post.path) %>">
+    <a href="<%- url_for(post.path) %>" class="post-title">
       <% if (post.title == "") { %>
       no title
       <% } else { %>

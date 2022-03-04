@@ -286,3 +286,28 @@ body.darkmode {
   }
 
 }
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.home-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  margin-right: 12px;
+}
+
+.photos-row {
+  display: flex;
+}
+
+.photos-row img {
+  margin-right: 10px;
+}
+
+.product-intro-left {
+  width: 765px;
+  margin-right: 20px;
+}
