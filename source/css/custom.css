@@ -301,6 +301,7 @@ body.darkmode {
 
 .photos-row {
   display: flex;
+  overflow-x: scroll;
 }
 
 .photos-row img {
