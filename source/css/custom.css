@@ -54,7 +54,7 @@ img {
 }
 
 .ml-0 {
-  margin-left: 0.7rem;
+  margin-left: 1rem;
 }
 
 .ml {
@@ -189,6 +189,10 @@ a.footer-link:focus {
   cursor: pointer;
 }
 
+.posisi a.footer-link.icon{
+  display: flex;
+}
+
 .svg-hov {
   transition: all .2s ease-in-out;
 }
@@ -270,11 +274,17 @@ body.darkmode {
 
 .posisi {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 6px;
+  position: relative;
 }
 
 @media (min-width: 550px) {
   .posisi {
     text-align: right;
+    justify-content: flex-end;
   }
 
   #comments {
@@ -283,6 +293,12 @@ body.darkmode {
 
   #madewith {
     text-align: left;
+  }
+
+  .datatime {
+    text-align: right;
+    position: relative;
+    right: -25px;
   }
 
 }
@@ -311,4 +327,8 @@ body.darkmode {
 .product-intro-left {
   width: 765px;
   margin-right: 20px;
+}
+
+.post-title {
+  margin-top: 1rem;
 }

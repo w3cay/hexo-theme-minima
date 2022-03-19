@@ -47,3 +47,6 @@ favicon: /images/favicon.ico
 article:
   thumbnail: false
   
+twitter: https://twitter.com/AnyangChen
+rss: https://w3cay.com/atom.xml
+github: https://github.com/w3cay
