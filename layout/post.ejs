@@ -4,8 +4,10 @@
   <p class="post-content">
     <%- page.content%>
   </p>
-  <p class="post-tags">标签：<%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %></p>
 
+  <% if (page.tags.length > 0) { %>
+    <p class="post-tags">标签：<%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %></p>
+  <% } %>
 
   <%- partial('partial/comments') %>
 
