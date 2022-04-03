@@ -332,3 +332,17 @@ body.darkmode {
 .post-title {
   margin-top: 1rem;
 }
+
+code {
+  word-break: break-word;
+  border-radius: 2px;
+  overflow-x: auto;
+  background-color: #fff5f5;
+  font-size: .87em;
+  padding: .065em .4em;
+}
+
+p code {
+  color: #996d00;
+  background-color: rgba(130,98,0,.3);
+}
