@@ -11,6 +11,7 @@ desc: ""
 #menu
 menu:
   产品: /product
+  2048: /2048
   文摘: /tags/文摘/
   关于: /about
 
